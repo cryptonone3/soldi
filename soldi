@@ -24,7 +24,7 @@ contract TokenCorrect is Token {
     }
 }
 
-contract Test {
+act Test {
     function property_transfer(address _token, address _to, uint _amt) public {
         require(_to != address(this));
 
